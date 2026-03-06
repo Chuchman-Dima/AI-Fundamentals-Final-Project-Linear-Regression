@@ -57,7 +57,7 @@ This application is fully containerized. You can run it on any machine without i
 
 ---
 
-### 💻 Option 2: Local Installation (Console)
+### Option 2: Local Installation (Console)
 If you prefer to run the code directly on your machine, follow these steps:
 
 1. **Clone the repo:**
