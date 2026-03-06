@@ -1,25 +1,25 @@
-# 📈 AI Fundamentals Final Project: Linear Regression
+# AI Fundamentals Final Project: Linear Regression
 
 This project is a full-cycle machine learning application built with **Python**, **Scikit-learn**, and **Streamlit**. It covers everything from synthetic data generation to interactive model deployment and containerization.
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 You can try the live interactive web application here:
 👉 **[Link to Streamlit App](https://final-project-ayx7ntn2okqh2ece7ykm2x.streamlit.app/)**
 
-## 📋 Project Overview & Purpose
+## Project Overview & Purpose
 The core objective is to build a simple linear regression model that predicts target values based on input features, and to make this model easily accessible via a web interface. The project is split into two main phases:
 1. **Model Development:** Training, evaluating, and serializing the regression model.
 2. **Web Deployment:** Serving the model via an interactive Streamlit application and containerizing it with Docker.
 
-### 🗂 Project Structure
+### Project Structure
 * `model.py`: Script for generating synthetic data, training the Linear Regression model, and saving artifacts (`.joblib`).
 * `app.py`: The Streamlit web interface for real-time predictions and Matplotlib visualizations.
 * `Dockerfile`: Instructions for containerizing the application using a lightweight Python image.
 * `requirements.txt`: Project dependencies.
 
-## 🛠 Tech Stack
+## Tech Stack
 * **Language:** Python 3.11
 * **Machine Learning:** Scikit-learn (Linear Regression), Numpy
 * **Web Framework:** Streamlit
@@ -27,7 +27,7 @@ The core objective is to build a simple linear regression model that predicts ta
 * **Serialization:** Joblib
 * **DevOps & Deployment:** Docker, Docker Hub, Streamlit Community Cloud
 
-## ✨ Key Features
+## Key Features
 ### 1. Model Training & Evaluation
 * **Synthetic Data:** Generation of a custom dataset for training and testing.
 * **Model Serialization:** Saving the trained model as a `.joblib` file for efficient loading.
@@ -38,9 +38,9 @@ The core objective is to build a simple linear regression model that predicts ta
 * **Visual Comparison:** A scatter plot displaying the dataset, the actual target, and the predicted value.
 * **Difference Annotation:** Automatic calculation and visualization of the error (difference) on the chart.
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🐳 Option 1: Running with Docker (Recommended)
+### Option 1: Running with Docker (Recommended)
 This application is fully containerized. You can run it on any machine without installing Python or libraries.
 
 1. **Pull the image from Docker Hub:**
@@ -85,7 +85,7 @@ If you prefer to run the code directly on your machine, follow these steps:
    python -m streamlit run app.py
    ```
 
-## 🎓 What I Learned & Improved
+## What I Learned & Improved
 Throughout this project, I significantly improved my practical engineering skills:
 
 * **End-to-End ML Pipeline:** Transitioned from a simple local script to a fully deployed web application.
